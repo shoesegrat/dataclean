@@ -1,0 +1,9 @@
+LICENSE
+README.md
+dataclean.py
+pyproject.toml
+shoesegrat_dataclean.egg-info/PKG-INFO
+shoesegrat_dataclean.egg-info/SOURCES.txt
+shoesegrat_dataclean.egg-info/dependency_links.txt
+shoesegrat_dataclean.egg-info/entry_points.txt
+shoesegrat_dataclean.egg-info/top_level.txt
