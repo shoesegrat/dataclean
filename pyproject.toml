@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shoesegrat-dataclean"
+version = "0.1.0"
+description = "检查数据集里的重复、缺失字段、标签分布偏移与近重复样本，给出可执行的处理建议。"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "shoesegrat" }]
+keywords = ["dataset", "data-quality", "llm", "training"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://shoesegrat.github.io"
+Repository = "https://github.com/shoesegrat/dataclean"
+Issues = "https://github.com/shoesegrat/dataclean/issues"
+
+[project.scripts]
+dataclean = "dataclean:main"
+
+[tool.setuptools]
+py-modules = ["dataclean"]
